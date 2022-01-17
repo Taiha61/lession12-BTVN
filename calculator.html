@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator web</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div>
+            <h1>calculator</h1>
+        </div>
+        <div class="box">
+            <form action="phép tính">
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="2">calculator</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><label for="firstNumber">Nhập số thứ nhất: </label></td>
+                            <td> <input type="number" id="firstNumber" name="firstNumber"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="calcutalation">phép tính</label></td>
+                            <td> <input id="calculation" type="text"></td>
+                        </tr>
+                        <tr>
+                            <td> <label for="secondNumber">nhập số thứ 2: </label></td>
+                            <td><input type="number" id="secondNumber" name="secondNumber"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="equaTo"> kết quả</label></td>
+                            <td><button id="equaTo">=</button>
+                                <div id="result"></div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </form>
+        </div>
+
+    </div>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
